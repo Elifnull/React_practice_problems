@@ -13,7 +13,7 @@ const Pokemon = () => {
     
     return(
         <div>
-            Pokemon!
+            <h2>Pokemon! (fetch!)</h2>
             <ul>
                 {pokedex.map((value,index) => {
                     return(<li className='ulist'>{value.name.toUpperCase()}</li>)})}
