@@ -27,7 +27,7 @@ const createCompany = () => {
             country:faker.address.country(),
         },
     }
-    return company;
+    return company;  // return is important but probably not necessary!
 };
 //some important app middleware
 app.use(express.json());
