@@ -38,7 +38,7 @@ app.get("/api/users/new", (req, res) =>{
 });
 
 app.get("/api/companies/new", (req, res)=>{
-    res.json(createCompany())
+    res.json(createCompany())//will be useful to remember the json is used in MongoDBg
 });
 
 app.get("/api/user/company",(req,res)=>{
