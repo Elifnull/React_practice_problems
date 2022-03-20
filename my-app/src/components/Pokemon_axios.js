@@ -5,7 +5,7 @@ const PokemonAxios = () => {
     const [pokedex, setPokedex] = useState([]);
 
     useEffect(()=>{
-        axios.get("https://pokeapi.co/api/v2/pokemon?limit=1126")
+        axios.get("https://pokeapi.co/api/v2/pokemon?limit=1126") //pokemon api is basicly a library with keyvalues
         .then(res => {
             console.log(res);
             return setPokedex(res.data.results);})
